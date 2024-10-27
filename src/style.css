@@ -199,19 +199,11 @@ section{
   gap: 25rem;
   background-color: var(--second-bg-color);
 }
-.about-content{
-  animation:appear linear;
-  animation-timeline:view();
-  animation-range: entry 0% cover 40%;
-}
 .about-img img{
   width: 32vw;
   border-radius: 50%;
   box-shadow: 0 0 25px var(--main-color);
   transition: 0.4s ease-in-out;
-  animation:appear linear;
-  animation-timeline:view();
-  animation-range: entry 0% cover 40%;
 }
 .about-img img:hover{
  box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color),
@@ -245,9 +237,6 @@ section{
 .services{
   background-color: var(--bg-color);
   color: black;
-  animation:appear linear;
-  animation-timeline:view();
-  animation-range: entry 0% cover 40%;
 }
 .services h2{
   color: var(--text-color);
@@ -298,9 +287,6 @@ section{
 }
 .projects{
   background-color: var(--bg-color);
-  animation:appear linear;
-  animation-timeline:view();
-  animation-range: entry 0% cover 40%;
 }
 .projects-box{
   display:grid;
@@ -345,9 +331,6 @@ section{
 }
 .contact{
   background-color: var(--second-bg-color);
-  animation:appear linear;
-  animation-timeline:view();
-  animation-range: entry 0% cover 40%;
 }
 .contact h2{
   margin-bottom: 3rem;
